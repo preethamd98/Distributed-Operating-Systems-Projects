@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<h1 align="center"> Twitter Clone</h2>
+<div id="name"></div>
+<div id="chat-box">
+</div>
+
+<br>
+  <input type="text" placeholder="user-name" id="login-name"></input>
+  <button type="submit" id="login" class="btn btn-primary">login</button>
+  <button type="submit" id="register" class="btn btn-primary">register</button>
+<br>
+
+  <textarea placeholder="Tweet" id="tweet-text"></textarea>
+  <button type="submit" id="tweet-button" class="btn btn-primary">Tweet</button>
+<br>
+
+   <input type="text" placeholder="Username" id="subscribe"></input>
+  <button type="submit" id="subscribe-button" class="btn btn-primary">subscribe</button>
+<br>
+   <input type="text" placeholder="retweet-id" id="retweet"></input>
+  <button type="submit" id="retweet-button" class="btn btn-primary">retweet</button>
+<br>
+<br>
+   <input type="text" placeholder="mentions" id="mentions"></input>
+  <button type="submit" id="mentions-button" class="btn btn-primary">Get Mentions</button>
+<br>
+
+
+
+
+
+
+
+
+<br>
+   <input type="text" placeholder="hashtag" id="hashtag" ></input>
+  <button type="submit" id="hashtag-button" class="btn btn-primary">Get Hashtags</button>
+<br>
+
+<button type="submit" id="mymentions-button" class="btn btn-primary">Get My Mentions</button>
+<br>
+
+
+
+  <button type="submit" id="test">TEST</button>

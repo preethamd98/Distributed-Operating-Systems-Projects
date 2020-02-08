@@ -1,0 +1,5 @@
+:ets.new(:users,[:set,:public,:named_table])
+:ets.insert(:users,{"Preetham","Dasari"})
+:ets.lookup(:users,"Preetham")
+:ets.insert(:users,{"Preetham","Dasari2"})
+:ets.lookup(:users,"Preetham")
